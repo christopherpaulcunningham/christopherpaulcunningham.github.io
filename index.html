@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&family=Work+Sans:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Christopher Cunningham</title>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./assets/images/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./assets/images/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./assets/images/favicon/site.webmanifest" />
+	</head>
+	<body>
+		<!-- Navbar -->
+		<header role="heading">
+			<nav id="navbar">
+				<div class="navbar-title"><a href="#">cc.</a></div>
+				<a class="hamburger-button">
+					<span class="hamburger-bar" id="hamburger-bar-1"></span>
+					<span class="hamburger-bar" id="hamburger-bar-2"></span>
+					<span class="hamburger-bar" id="hamburger-bar-3"></span>
+				</a>
+				<div class="navbar-links">
+					<ul class="hide">
+						<li class="navbar-button nav-animation">
+							<a href="#about">About</a>
+						</li>
+						<li class="navbar-button nav-animation">
+							<a href="#projects">Projects</a>
+						</li>
+						<li class="navbar-button nav-animation">
+							<a href="#contact">Contact</a>
+						</li>
+						<li class="button resume-button nav-animation">
+							<a
+								target="_blank"
+								href="./assets/resume-christopher-cunningham.pdf"
+								>Resume</a
+							>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section id="hero" class="content">
+				<div class="split-container">
+					<div class="column photo-column">
+						<div class="hide">
+							<img
+								class="profile-img"
+								src="./assets/images/profile.jpg"
+								alt="Image of Christopher Cunningham"
+							/>
+						</div>
+					</div>
+					<div class="column info-column">
+						<div>
+							<h3 class="hero-heading-small hide">
+								<span class="intro-text">Hi, I'm</span>
+							</h3>
+							<h1 class="hide">
+								<span class="intro-text">Christopher Cunningham.</span>
+							</h1>
+							<h2 class="hero-sub-heading hide">
+								<span class="intro-text">I build things for the web.</span>
+							</h2>
+						</div>
+					</div>
+				</div>
+				<div class="arrow-container hide">
+					<a href="#about"
+						><img src="./assets/images/arrow.png" class="arrow arrow-animation"
+					/></a>
+				</div>
+			</section>
+			<section id="about" class="content">
+				<span class="section-header white">About</span>
+				<div id="about-container">
+					<div class="about-column">
+						<p>
+							Hello! I’m Christopher, a web developer currently living in
+							Valencia, Spain.
+						</p>
+						<p>
+							After graduating from Ulster University with a BSc in Computing
+							Science, I rejoined the engineering team at Liberty IT in Belfast
+							as a .Net developer and picked up where I had left off as an
+							intern the year before. A year later, I decided to put my career
+							on hold to work with an NGO in the Philippines and to travel. I
+							currently live in Valencia, where I’m thrilled to call home, and
+							am therefore interested in rejoining the industry in either a
+							front-end or full-stack position.
+						</p>
+						<p>
+							I enjoy creating things for the internet, from static web sites to
+							full-stack applications, and am having a blast picking up where I
+							left off a few years ago. As a self-motivated, hardworking person
+							who enjoys learning and is able to get up to speed with new
+							technologies quickly, I am confident that I can be an asset to any
+							development team.
+						</p>
+					</div>
+					<div class="about-column">
+						<div class="experience">
+							<h4>Skills</h4>
+							<span
+								>Here are a few of the technologies and languages I have
+								experience with:</span
+							>
+							<ul class="skills-list xs-font">
+								<li>HTML5 & CSS3</li>
+								<li>C# & ASP .Net</li>
+								<li>JavaScript (ES6)</li>
+								<li>Java</li>
+								<li>React</li>
+								<li>MongoDB</li>
+								<li>Node.js & Express</li>
+								<li>Git</li>
+							</ul>
+						</div>
+						<div class="experience">
+							<h4>Certifications</h4>
+							<span
+								>Oracle Certified Associate (OCA) Java SE 7 Programmer.
+								<br /><span class="xs-font"
+									>(Year of accreditation: 2014)</span
+								></span
+							>
+						</div>
+						<div class="experience">
+							<h4>Languages</h4>
+							<ul class="skills-list">
+								<li>English (Native)</li>
+								<li>Spanish (A2/B1)</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="projects" class="content">
+				<span class="section-header blue">Projects</span>
+				<div class="project">
+					<span class="featured right">Featured Project</span>
+					<span class="project-header right">Conjugaciones</span>
+					<div class="project-details-container">
+						<div class="project-left-container image-container">
+							<img
+								src="./assets/images/conjugaciones.png"
+								class="project-img"
+								id="project-1-image"
+							/>
+						</div>
+						<div class="project-right-container info-container">
+							<span class="project-description right float-right"
+								>A web app for practicing Spanish verb conjugations. Select
+								which verb tenses you want to practice and the app will create a
+								quiz based on your preferences. With over 600 verbs available,
+								as well as the option to use custom verbs, this project aims to
+								be the perfect resource for learners of all levels.</span
+							>
+							<div class="project-technologies right">
+								<span>React</span>
+								<span></span>
+							</div>
+							<div class="project-links right">
+								<a
+									href="https://github.com/christopherpaulcunningham/conjugaciones"
+									target="_blank"
+									><img
+										src="./assets/images/github-blue.png"
+										class="project-link-icon"
+								/></a>
+								<a href="https://conjugaciones.netlify.app/" target="_blank"
+									><img
+										src="./assets/images/link.png"
+										class="project-link-icon"
+								/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="project">
+					<span class="featured left">Featured Project</span>
+					<span class="project-header left">Git a Job</span>
+					<div class="project-details-container swap">
+						<div class="project-right-container image-container">
+							<img
+								src="./assets/images/gitajob.png"
+								class="project-img"
+								id="project-2-image"
+							/>
+						</div>
+						<div class="project-left-container info-container">
+							<span class="project-description left float-left"
+								>A web app to search and view the latest tech positions posted
+								on GitHub Jobs by job title and location. Create an account and
+								you can also save your favourite job postings for later. Built
+								using the GitHub Jobs API.</span
+							>
+							<div class="project-technologies left">
+								<span>React,</span>
+								<span>Node.js & Express,</span>
+								<span>MongoDB</span>
+							</div>
+							<div class="project-links left">
+								<a
+									href="https://github.com/christopherpaulcunningham/git-a-job"
+									target="_blank"
+									><img
+										src="./assets/images/github-blue.png"
+										class="project-link-icon"
+								/></a>
+								<a href="https://git-a-job-v1.herokuapp.com/" target="_blank"
+									><img
+										src="./assets/images/link.png"
+										class="project-link-icon"
+								/></a>
+							</div>
+							<span class="heroku-msg"
+								>(Please allow 10-20s for Heroku to wake up.)</span
+							>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact" class="content">
+				<span id="contact-header">Get in touch!</span>
+				<span class="contact-content">
+					Think I would be a good fit for an open position? Want to discuss a
+					project? Currently obsessed with a new book and just have to tell
+					someone? Feel free to get in touch!
+				</span>
+				<div>
+					<a
+						id="email-button"
+						href="mailto:christopherpaulcunningham@gmail.com"
+						class="button contact-content"
+						>Email me</a
+					>
+				</div>
+				<div id="contact-icons">
+					<a
+						href="https://www.github.com/christopherpaulcunningham"
+						target="_blank"
+						><img src="./assets/images/github.png"
+					/></a>
+					<a href="https://www.linkedin.com/in/chrscnnnghm/" target="_blank"
+						><img src="./assets/images/linkedin.png"
+					/></a>
+					<a href="https://www.instagram.com/chrscnnnghm/" target="_blank"
+						><img src="./assets/images/instagram.png"
+					/></a>
+				</div>
+				<div class="footer-text">
+					© <span id="current-year"></span> Christopher Cunningham
+				</div>
+			</section>
+		</main>
+
+		<script src="./app.js" defer></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+			integrity="sha384-aeOf8PUQ30Impyyio8FDxFHefK/3nHBJWjuT1u1FnJHZU+ro9q9E9cXUzfWBk0kT"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+	</body>
+</html>
