@@ -44,22 +44,26 @@ h1 {
 	margin: 0.5rem 0;
 	padding: 0;
 }
+
 h2 {
 	font-size: 1.5rem;
 	margin: 0;
 	padding: 0;
 }
+
 h3 {
 	color: #232323;
 	font-size: 1rem;
 	margin: 0;
 	padding: 0;
 }
+
 h4 {
 	font-size: 1rem;
 	margin: 2rem 0 0.3rem;
 	padding: 0;
 }
+
 p {
 	margin: 0 0 1rem;
 }
@@ -67,6 +71,7 @@ p {
 .white {
 	color: #ffffff;
 }
+
 .blue {
 	color: var(--main-heading-color);
 }
@@ -208,6 +213,7 @@ main section {
 .section-header.white:after {
 	background-color: #ffffff;
 }
+
 .section-header.blue:after {
 	background-color: var(--main-heading-color);
 }
@@ -255,6 +261,7 @@ main section {
 	text-align: center;
 	transition: transform 0.2s;
 }
+
 .arrow,
 .arrow-link {
 	height: 2rem;
@@ -280,10 +287,12 @@ main section {
 .experience {
 	margin: 1.5rem 0;
 }
+
 .experience span {
 	display: block;
 	width: 100%;
 }
+
 .experience .xs-font {
 	margin-top: 0.4rem;
 }
@@ -295,6 +304,7 @@ main section {
 	margin: 0.5rem 0rem 0;
 	padding: 0;
 }
+
 .skills-list li {
 	margin: 0.2rem 0;
 }
@@ -375,12 +385,15 @@ main section {
 .project-links a img {
 	height: 1.5rem;
 }
+
 .project-links.right a img {
 	margin: 0.5rem 0rem 0.5rem 2rem;
 }
+
 .project-links.left a img {
 	margin: 0.5rem 2rem 0.5rem 0rem;
 }
+
 .project-links a img:hover {
 	transform: scale(1.2);
 }
@@ -400,6 +413,7 @@ main section {
 	background-color: var(--blue-background-color);
 	color: #ffffff;
 }
+
 #contact-container {
 	padding-bottom: 15rem;
 	margin: auto;
@@ -409,8 +423,9 @@ main section {
 
 #contact-icons {
 	text-align: center;
-	margin: 4rem auto 1rem;
+	margin: 3rem auto 1rem;
 }
+
 #contact-icons img:hover {
 	transform: scale(1.2);
 }
@@ -552,6 +567,7 @@ main section {
 	h3 {
 		font-size: 1.5rem;
 	}
+
 	h4 {
 		margin: 0rem 0 0.3rem;
 	}
@@ -577,29 +593,36 @@ main section {
 		min-height: calc(100% - 7rem);
 		width: 100%;
 	}
+
 	.split-container .column {
 		margin: auto;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
+
 	.photo-column .hide {
 		width: 100%;
 		text-align: center;
 	}
+
 	.profile-img {
 		height: 15rem;
 	}
+
 	.info-column {
 		padding: 0;
 		height: 100%;
 	}
+
 	.sub-heading {
 		color: var(--sub-heading-color);
 	}
+
 	.arrow-container {
 		margin: 4rem auto 0 auto;
 	}
+
 	.arrow,
 	.arrow-link {
 		height: 3rem;
@@ -611,9 +634,11 @@ main section {
 		display: flex;
 		justify-content: space-between;
 	}
+
 	.about-column {
 		width: 45%;
 	}
+
 	.experience {
 		margin: 0rem 0rem 2rem;
 	}
@@ -625,6 +650,7 @@ main section {
 	.hide .nav-animation {
 		transform: translateY(-100%);
 	}
+
 	.hide .profile-img {
 		transform: translateX(-200%);
 		display: inline-block;
@@ -682,6 +708,7 @@ main section {
 		justify-content: center;
 		padding: 0 0 10rem;
 	}
+
 	.split-container .column {
 		margin: 2rem auto;
 		align-items: center;
@@ -692,6 +719,7 @@ main section {
 		width: 100%;
 		text-align: left;
 	}
+
 	.profile-img {
 		height: 20rem;
 		margin: auto;
@@ -720,6 +748,7 @@ main section {
 		max-width: 992px;
 		margin: auto;
 	}
+
 	.split-container {
 		align-items: center;
 		display: flex;
@@ -727,19 +756,23 @@ main section {
 		min-height: calc(100% - 7rem);
 		padding: 0 0 10rem;
 	}
+
 	.split-container .column {
 		margin: auto;
 		align-items: center;
 		justify-content: center;
 	}
+
 	.photo-column .hide {
 		width: 100%;
 		text-align: left;
 	}
+
 	.profile-img {
 		height: 15rem;
 		margin: auto;
 	}
+
 	.info-column {
 		padding-left: 2rem;
 		height: 100%;
@@ -751,8 +784,9 @@ main section {
 	}
 	/* About section */
 	#about {
-		padding: 3rem 5rem;
+		padding: 4rem 5rem;
 	}
+
 	#about-container {
 		width: 95%;
 		margin: auto;
@@ -760,8 +794,9 @@ main section {
 
 	/* Projects section */
 	#projects {
-		padding: 3rem 5rem;
+		padding: 4rem 5rem;
 	}
+
 	.project {
 		margin-bottom: 4rem;
 		width: 90%;
@@ -771,6 +806,7 @@ main section {
 		display: flex;
 		justify-content: space-between;
 	}
+
 	.swap {
 		flex-direction: row-reverse;
 	}
@@ -786,9 +822,11 @@ main section {
 	.image-container {
 		width: 50%;
 	}
+
 	.info-container {
 		width: 50%;
 	}
+
 	.project-img {
 		height: 14rem;
 		margin-top: -2rem;
@@ -856,6 +894,7 @@ main section {
 	.hamburger-button {
 		display: flex;
 	}
+
 	.navbar-links {
 		/* display: none; */
 		margin: auto;
@@ -880,6 +919,7 @@ main section {
 	.navbar-links li {
 		text-align: center;
 	}
+
 	.navbar-links .resume-button {
 		margin: 0.5rem 0 1.5rem 0;
 	}
