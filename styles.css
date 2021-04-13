@@ -355,6 +355,12 @@ main section {
 	margin: 1rem auto;
 }
 
+.project-img:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: all 0.2s ease-in;
+}
+
 #project-1-image {
 	float: right;
 }

@@ -1,4 +1,3 @@
-// Animation.
 const timeline = gsap.timeline({ defaults: { ease: 'power1.out' } });
 const timeline2 = gsap.timeline({ defaults: { ease: 'power1.out' } });
 timeline.to('.nav-animation', { y: '0%', duration: 0.5, stagger: 0.2 });
